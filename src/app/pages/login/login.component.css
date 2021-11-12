@@ -1,5 +1,94 @@
-log-container{
+#login-container{
     width: 100vw;
     height: 100vh;
-    background-color: B3FFA0;
+    background-color: rgba(179,255,160, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+}
+#login-main-container{
+    width: 70%;
+    height: 100%;
+    background-color: #303030;
+    align-self: center;
+    box-shadow: 0px 5px 40px 20px rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#login-logo{
+    margin-top: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(179,255,160, 1);
+
+}
+
+#login-header{
+    margin-top: 60px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#login-form-container{
+    margin-top: 40px;
+    width: 59%;
+    height: 60%;
+    background-color: #DBDBDB;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-headers{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    width: 82%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-input{
+    width: 80%;
+    height: 8%;
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-submit{
+    margin-top: 38px;
+    background-color: rgba(255, 168, 0, 0.9);
+    width: 22%;
+    height: 8%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-submit-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#forgot-password{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
